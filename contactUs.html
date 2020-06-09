@@ -77,6 +77,56 @@
         font-size: 32px;
         font-weight: bolder;
       }
+      .mainDiv{
+			background: url('https://res.cloudinary.com/philomena/image/upload/v1591637622/Rectangle_2_vgauao.jpg')
+          no-repeat center center fixed;
+          background-size: cover;
+          width: 100%;
+          height: 500px;
+          position: relative;
+		}
+		.myBody{
+			width: 250px;
+			height: 100px;
+			
+			position: absolute;
+			top:0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			margin: auto;
+		}
+		.p1{
+			font-family: Roboto;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 18px;
+			line-height: 21px;			
+			left: 576px;
+			top: 1067px;
+			height: 21px;
+			width: 288px;
+			color: #F5FAFF;
+		}
+		button{
+			font-family: Roboto;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 18px;
+			line-height: 10px;
+			width: 275px;
+			height: 50px;
+			top: 1120px;
+			color: #F5FAFF;
+			border: 1px solid #FFFFFF;
+			box-sizing: border-box;
+			border-radius: 8px;
+			flex: none;
+			order: 0;
+			align-self: center;
+			margin: 10px 0px;
+			background: linear-gradient(0deg, rgba(20, 70, 115, 0.66), rgba(15, 60, 90, 0.5)), url(.jpg);
+		}
       section {
         display: grid;
         grid-template-columns: 2fr 1fr;
@@ -152,6 +202,12 @@
         It is located in the heart of Lagos, with serene environment where you
         have the view of your life time seeing the oceans
       </p>
+      <div class="mainDiv">
+        <div class="myBody">		
+            <p class="p1">Click on the button to show the map</p>
+            <button><p>Show the Map</p></button>
+        </div>
+      </div>
     </div>
     <section>
       <form>
